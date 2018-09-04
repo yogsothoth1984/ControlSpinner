@@ -17,7 +17,7 @@
         android:layout_marginTop="61dp"
         android:ems="10"
         android:inputType="number"
-        android:text="Valor"
+        android:hint="Valor"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="142dp" />
 
@@ -30,7 +30,7 @@
         android:layout_marginTop="138dp"
         android:ems="10"
         android:inputType="number"
-        android:text="valor"
+        android:hint="valor"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="219dp" />
 
@@ -61,7 +61,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="180dp"
-        android:text="Resultado"
+        android:hint="Resultado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

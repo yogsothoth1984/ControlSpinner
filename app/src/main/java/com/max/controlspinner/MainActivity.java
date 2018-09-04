@@ -28,6 +28,32 @@ private Spinner spinner;
         spinner.setAdapter(stringArrayAdapter);
     }
     public void operar(View voperar){
-        
+        String valor1=et1.getText().toString();
+        String valor2=et2.getText().toString();
+        int nro1=Integer.parseInt(valor1);
+        int nro2=Integer.parseInt(valor2);
+        String selec=spinner.getSelectedItem().toString();
+        if (selec.equals("sumar")) {
+            int suma=nro1+nro2;
+            String resu=String.valueOf(suma);
+            tv1.setText(resu);
+        } else
+        if (selec.equals("restar")) {
+            int resta=nro1-nro2;
+            String resu=String.valueOf(resta);
+            tv1.setText(resu);
+        }
+        else
+        if (selec.equals("multiplicar")) {
+            int multi=nro1*nro2;
+            String resu=String.valueOf(multi);
+            tv1.setText(resu);
+        }
+        else
+        if (selec.equals("dividir")) {
+            int divi=nro1/nro2;
+            String resu=String.valueOf(divi);
+            tv1.setText(resu);
+        }
     }
 }
