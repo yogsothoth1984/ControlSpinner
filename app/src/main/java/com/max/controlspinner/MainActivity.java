@@ -33,27 +33,10 @@ private Spinner spinner;
         int nro1=Integer.parseInt(valor1);
         int nro2=Integer.parseInt(valor2);
         String selec=spinner.getSelectedItem().toString();
-        if (selec.equals("sumar")) {
-            int suma=nro1+nro2;
-            String resu=String.valueOf(suma);
-            tv1.setText(resu);
-        } else
-        if (selec.equals("restar")) {
-            int resta=nro1-nro2;
-            String resu=String.valueOf(resta);
-            tv1.setText(resu);
-        }
-        else
-        if (selec.equals("multiplicar")) {
-            int multi=nro1*nro2;
-            String resu=String.valueOf(multi);
-            tv1.setText(resu);
-        }
-        else
-        if (selec.equals("dividir")) {
-            int divi=nro1/nro2;
-            String resu=String.valueOf(divi);
-            tv1.setText(resu);
-        }
+        if(selec.equals("Suma")){
+        int suma=nro1 + nro2;
+        String resultado=String.valueOf(suma);
+        tv1.setText(resultado);}
     }
+
 }
