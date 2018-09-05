@@ -37,6 +37,21 @@ private Spinner spinner;
         int suma=nro1 + nro2;
         String resultado=String.valueOf(suma);
         tv1.setText(resultado);}
+        else if(selec.equals("Resta")){
+            int resta=nro1 - nro2;
+            String resultado=String.valueOf(resta);
+            tv1.setText(resultado);
+        }
+        else if (selec.equals("Dividir")){
+            int dividir=nro1/nro2;
+            String resultado=String.valueOf(dividir);
+            tv1.setText(resultado);
+        }
+        else if (selec.equals("Multiplicar")){
+            int multiplicar=nro1*nro2;
+            String resultado=String.valueOf(multiplicar);
+            tv1.setText(resultado);
+        }
     }
 
 }
